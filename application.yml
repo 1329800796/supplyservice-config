@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: supplyservice-config-client-dev
+---
+spring:
+  profiles: test
+  application:
+    name: supplyservice-config-client-test
